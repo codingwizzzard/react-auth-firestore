@@ -19,7 +19,7 @@ function Add_User() {
         getData();
 
         return () => logout()
-    }, [navigate]);
+    }, []);
 
     let handleChange = (e) => {
         let { name, value } = e.target;
